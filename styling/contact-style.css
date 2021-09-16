@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #E4C8D5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    /* background-color: #A95AC4; */
+    /* box-shadow: black; */
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    right: 5vh;
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    height: 8vh;
+    min-width: 60%;
+    list-style-type: none;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 5vw;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    /* background-color: red; */
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #7F3FDE;
+    mix-blend-mode: difference;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+}
+
+a .active {
+    color: #440d97;
+}
+
+main {
+    width: 100%;
+}
+
+.image-box {
+    height: 60vh;
+    padding: 10vh;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 32%;
+    text-align: right;
+    background-color: #B07C9E;
+    color: #41226e;
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+}
+
+.image-box img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card {
+    height: 60vh;
+    width: 50vw;
+    padding-top: 15vh;
+    background-color: white;
+    padding-left: 15vh;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
+.intro {
+    height: 30vh;
+    width: 40vw;
+    /* background-color: red; */
+    /* margin: 5vh 10vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 50px;
+    font-size: 2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: 5rem;
+    color: #8345e0;
+}
+
+.intro h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+    color: #440d97;
+}
+
+.bio {
+    height: 10vh;
+    width: 25vw;
+    margin-left: 30vh;
+    padding-left: 50px;
+    text-align: justify;
+    color: rgb(95, 43, 95);
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
