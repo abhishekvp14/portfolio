@@ -136,7 +136,7 @@ main {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 800px) {
     nav {
         right: 0;
         background-color: white;
