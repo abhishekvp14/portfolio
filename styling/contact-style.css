@@ -133,11 +133,7 @@ main {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 800px) {
-=======
-@media only screen and (max-width: 900px) {
->>>>>>> 4d7190b98a672d9dae03e76a16415f44d8185229
     nav {
         right: 0;
         background-color: white;
